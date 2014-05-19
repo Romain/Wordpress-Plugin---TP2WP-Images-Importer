@@ -20,6 +20,11 @@ Then click on the big blue button and just wait for TypePad to Wordpress to impo
 
 1, 2, 3: You're done!
 
+== Screenshots ==
+
+1. This is the interface of TypePad to Wordpress. 
+You have 2 fields: one for your TypePad URL, one for your domain name if you have one.
+
 == Changelog ==
 
 = 1.0.0 =

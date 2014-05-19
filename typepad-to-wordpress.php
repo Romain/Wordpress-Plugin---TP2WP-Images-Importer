@@ -133,7 +133,7 @@
 					"response" => TRUE, "file" => $new_file, 
 					"attachment_id" => $attachment_id, "filetype" => $filetype, 
 					"nb_rows_affected" => $result, "old_url" => $_POST['image_url'],
-					"new_url" => $new_file_url
+					"new_url" => $new_file_url, "post_id" => $_POST['id']
 				)
 			);
 		}
