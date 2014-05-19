@@ -1,4 +1,4 @@
-=== TypePad to Wordpress assets importer ===
+=== Akismet ===
 Contributors: Romain Biard
 Tags: TypePad, Wordpress, import, assets, images
 Requires at least: 3.0
