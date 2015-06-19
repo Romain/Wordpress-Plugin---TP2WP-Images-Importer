@@ -2,7 +2,7 @@
 Contributors: Romain Biard
 Tags: TypePad, Wordpress, import, assets, images
 Requires at least: 3.0
-Tested up to: 3.9
+Tested up to: 4.2.2
 Stable tag: 1.0.0
 License: GPLv2 or later
 
