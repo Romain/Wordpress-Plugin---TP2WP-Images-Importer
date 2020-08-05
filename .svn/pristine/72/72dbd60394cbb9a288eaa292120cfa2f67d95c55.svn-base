@@ -3,8 +3,8 @@ Contributors: Romain Biard
 Author URI: http://www.digitallift.fr/
 Tags: TypePad, Wordpress, import, assets, images
 Requires at least: 3.0
-Tested up to: 5.4.2
-Stable tag: 1.1.0
+Tested up to: 4.2.2
+Stable tag: 1.0.0
 License: GPLv2 or later
 Donate link: https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=70U2ojRFMzkhNxTH8oA3F2mvMaJ49PIs-yHvuVa4hY60Hb_vK3FRpx-x-eG&dispatch=5885d80a13c0db1f8e263663d3faee8de6030e9239419d79c3f52f70a3ed57ec
 
@@ -24,7 +24,7 @@ Then click on the big blue button and just wait for TypePad to Wordpress to impo
 
 == Screenshots ==
 
-1. This is the interface of TypePad to Wordpress.
+1. This is the interface of TypePad to Wordpress. 
 You have 2 fields: one for your TypePad URL, one for your domain name if you have one.
 
 == Changelog ==

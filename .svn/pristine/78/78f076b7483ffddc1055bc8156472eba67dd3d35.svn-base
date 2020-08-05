@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-
+		
 	// When the user clicks on the button
 	jQuery("#btn.ready").click(function() {
 
@@ -33,7 +33,7 @@ jQuery(document).ready(function() {
 			typepad_url += "[0-9a-z]*-[0-9a-z]*";
 
 			// Deactivate the button
-			jQuery(this).removeClass("ready").addClass("processing").empty().html("We are re-importing your assets...<br />This may take some time, depending on the volume of assets to import.");
+			jQuery(this).removeClass("ready").addClass("processing").empty().html("We are re-importing your assets...<br />This may take many minutes, depending on the volume of assets to import.");
 
 			// Display the title of the follow-up
 			var nb_posts_edited = 0;
@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
 			};
 
 			jQuery.post(ajaxurl, data, function(response) {
-
+				
 				// We decode the response and store the resuls in the posts variable.
 				var obj = jQuery.parseJSON(response);
 
@@ -55,7 +55,7 @@ jQuery(document).ready(function() {
 					// Get the content and the excerpt
 					var content = obj[i].post_content;
 					var excerpt = obj[i].post_excerpt;
-
+					
 					var content_urls = [];
 
 					// Get the urls that are in the content
@@ -147,14 +147,14 @@ jQuery(document).ready(function() {
 
 function cleanArray(array) {
 	var i, j, len = array.length, out = [], obj = {};
-
+	
 	for (i = 0; i < len; i++) {
 		obj[array[i]] = 0;
 	}
-
+	
 	for (j in obj) {
 		out.push(j);
 	}
-
+	
 	return out;
 }
